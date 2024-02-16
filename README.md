@@ -1,0 +1,1 @@
+A simple blog where i keep records/post reviews of visual novels I played or am playing. content may at times include NSFW **Eroge** 
