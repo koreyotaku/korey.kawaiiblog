@@ -5,3 +5,28 @@ body {
     background-color: black;
     font-size: 22px;
 }
+
+#custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select-selected::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 1px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+.custom-select {
+    border: skyblue;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+
